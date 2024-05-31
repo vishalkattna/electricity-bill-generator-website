@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Your Bill</title>
+    <link rel="stylesheet" href="css/pay.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<script src="js/pay.js"></script>
+
+<body>
+    <img src="img/ele logo.png" alt="logo" width="60px" height="60" style="margin-left:10px">
+    <img src="img/name.png" alt="name" width="120px" height="60">
+    <ul class="ul1">
+        <li><a href="home.html">Home</a></li>
+        <li></li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li style="float:right;">
+            <a href="#menu"><img src="img/line.png" alt="line" width="30px" height="20px"></a>
+        </li>
+    </ul>
+    <div class="div1">
+        <div class="div2">
+            <h2 ID="h2">PAY YOUR BILL</h2>
+            <form method="POST" autocomplete="off">
+
+                <div class="div3">
+                    <label for="accountno">Account Number</label>
+                </div>
+                <div class="div3"> <input type="text" maxlength="11" id="accountno" name="accountno"></div>
+
+                <div class="div3">
+                    <label for="mobile">Mobile Number for e-receipt</label>
+                </div>
+                <div class="div3"><input type="text" maxlength="10" id="mobile" name="mobile"></div>
+
+                <div class="div3">
+                    <label for="email">
+                        Email ID for e-receipt</label>
+                </div>
+                <div class="div3"><input type="text" id="email" name="email"></div>
+                <div class="div3">
+                    <label for="amount">Amount</label>
+                </div>
+                <div class="div3"><input type="text" id="amount" name="amount"></div>
+                <div class="div3"><button type="button" onclick="validation()">PROCEED</button></div>
+            </form>
+        </div>
+        <div class="div4">
+            <ul>
+                <li id="c1"> Copyright © 2016-2020 xyz.com All Rights Reserved.</li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Term&Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

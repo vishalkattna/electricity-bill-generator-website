@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Connection</title>
+    <link rel="stylesheet" href="css/form1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lobster&display=swap" rel="stylesheet">
+    <script src="js/form1.js">
+    </script>
+</head>
+
+<body>
+    <img src="img/ele logo.png" alt="logo" width="60px" height="60px" style="margin-left:10px">
+    <img src="img/name.png" alt="name" width="120px" height="60px">
+
+    <div id="new">NEW CONNECTION</div>
+    <div class="div1">
+        <form method="POST" autocomplete="off">
+            <table class="table1" style="width:100%">
+                <caption>Applicant Particular Details</caption>
+                <tr>
+                    <th>
+                        <label for="at">Application Type :</label>
+                        <select name="at" id="at">
+                        <option value="-1" selected>--select--</option>
+                        <option value="1">Individual</option>
+                        <option value="2">Govt Department of Institution</option>
+                        <option value="3">Private Institution</option>
+                    </select>
+                    </th>
+                    <th>
+                        <label for="in">Individual Name :</label>
+                        <select name="in" id="in">
+                        <option value="-1" selected>--select--</option>
+                        <option value="1">Mr</option>
+                        <option value="2">Mrs</option>
+                        <option value="3">Ms</option>
+                        <option value="4">M/S</option>
+                    </select>
+
+                        <input type="text" id="in1" name="in">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="name">Name & Designation :</label>
+                        <input type="text" id="name" name="name">
+                    </th>
+                    <th>
+                        <label for="fname">Father Name :</label>
+                        <input type="text" id="fname" name="fname">
+
+                    </th>
+                    <th>
+                        <label for="id1">Identity Proof :</label>
+                        <input type="number" id="id1" name="id">
+                    </th>
+                </tr>
+            </table>
+            <table class="table2" style="width:100%">
+                <caption>Address at which supply is required</caption>
+                <tr>
+                    <th>
+                        <label for="hno">House/Flat/Plot NO. :</label>
+                        <input type="text" name="hno" id="hno"><br>
+                    </th>
+                    <th>
+                        <label for="al">Address Line 1 :</label>
+                        <input type="text" name="al" id="al"><br>
+                    </th>
+                    <th>
+                        <label for="Landmark">Landmark :</label>
+                        <input type="text" name="Landmark" id="Landmark"><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="city">Village/Town/City :</label>
+                        <input type="text" name="city" id="city"><br>
+                    </th>
+                    <th>
+                        <label for="pincode">Pincode :</label>
+                        <input type="text" name="pincode" id="pincode"><br>
+                    </th>
+                    <th>
+                        <label for="pid">Property ID :</label>
+                        <input type="number" name="pid" id="pid"><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email1">Email ID :</label>
+                        <input type="email" id="email1" name="email1">
+                    </th>
+                    <th>
+                        <label for="fno">Mobile Number :</label>
+                        <input type="tel" id="fno" name="fno"><br>
+                    </th>
+                    <th>
+                        <label for="aa">Authorized Area[Y/N] :</label>
+                        <select id="aa" name="aa">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="aadhar">Aadhar Number :</label>
+                        <input type="number" name="aadhar" id="aadhar">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="ca">Correspondence Address :</label>
+                        <input type="checkbox" name="ca" id="ca">
+                        <lable>Same as above</lable>
+                    </th>
+                    <th>
+                        <input type="text" name="ca1" id="ca1">
+                    </th>
+                </tr>
+            </table>
+            <table style="width:100%" class="table3">
+                <caption>Applied Load Detail :</caption>
+                <tr>
+                    <th>
+                        <label for="cl">Connected Load[KW] :<span>(In case of AP category entered load in BHP)</span>
+                    </label>
+                        <input type="text" id="cl" name="cl">
+                    </th>
+                    <th>
+                        <label for="cd">Contract Demand[KVA] :</label>
+                        <input type="text" id="cd" name="cd">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="purpose">Purpose of Supply :</label>
+                        <input type="text" id="purpose" name="purpose">
+                    </th>
+                    <th>
+                        <label for="equ">Supply Metering Equipment :</label>
+                        <select name="equ" id="equ">
+                        <option value="department">Department</option>
+                        <option value="consumer">Consumer</option>
+                    </select>
+                    </th>
+                </tr>
+            </table>
+            <table style="width:100%" class="table4">
+                <caption>Document <span>Please upload self attested .jpg, .jpeg, .pdf and .png files.</span></caption>
+                <tr>
+                    <th>
+                        <label for="photo">User Photo: <span>(File size must be less than 50KB.)</span></label>
+                        <input type="file" name="photo" id="photo">
+                    </th>
+                    <th>
+                        <label for="proof" id="proof1">Proof of Ownership :<span>(File size must be less than
+                            500KB.)</span></label>
+                        <input type="file" name="proof" id="proof">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="ppid">Proof of Idenity : <span>(File size must be less than 500KB.)</span></label>
+                        <input type="file" name="id" id="ppid">
+                    </th>
+                </tr>
+            </table>
+            <table style="width:100%" class="table5">
+                <caption id="caption5"> If Details of Connection on the same premise/property/other connections in the name of Applicant(Optional) </caption>
+                <tr>
+                    <th>
+                        <label for="account">Account Holder :</label>
+                        <input type="text" id="account" name="account">
+                    </th>
+                    <th>
+                        <label for="accountno">Account Number :</label>
+                        <input type="text" id="accountno" name="accountno">
+                    </th>
+                    <th>
+                        <label for="address">Address :</label>
+                        <input type="text" id="address" name="address">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="category">Category :</label>
+                        <input type="text" id="category" name="category">
+                    </th>
+                    <th>
+                        <label for="conload">Connected Load[KW] :</label>
+                        <input type="text" id="conload" name="conload">
+                    </th>
+                    <th>
+                        <label for="contract">Contract Demand[KVA] :</label>
+                        <input type="text" id="contract" name="contract">
+                    </th>
+                </tr>
+            </table>
+            <table style="width:100%" class="table6">
+                <caption> I/we make the following declaration;</caption>
+                <tr>
+                    <th>The information provided in this application is true to my knowledge.</th>
+                </tr>
+                <tr>
+                    <th>I/We agree to abide by all the Rules & Regulations of the Nigam & HERC.</th>
+                </tr>
+                <tr>
+                    <th>I/We will deposit electricity dues and old dues if any , as per the applicable electricity tariff and other charges failing which the supply of electricity will be liable to be disconnected.</th>
+                </tr>
+                <tr>
+                    <th>I/We will own the responsibility of security and safety of the meter, cut-out and the installation
+                    </th>
+                </tr>
+                <tr>
+                    <th>I/We am/are the owner(s) / legal occupier of the premises in which supply of electricity is hereby requisitioned for which true copies of documents are submitted.</th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox" name="t&c" id="t&c">
+                        <label for="t&c">I/ we agree to the terms and conditions</label>
+                    </th>
+                </tr>
+            </table>
+            <button type="button" class="button" onclick="check()">Apply</button>
+            <button type="button" class="button">Back</button>
+        </form>
+    </div>
+</body>
+
+</html>

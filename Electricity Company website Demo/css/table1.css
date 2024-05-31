@@ -1,0 +1,88 @@
+body {
+    background: #15262e;
+    border-left: 60px solid #2b363c;
+    border-right: 60px solid #2b363c;
+    margin: 0px;
+    padding: 10px;
+}
+
+.ul {
+    position: sticky;
+    top: 5px;
+    background: black;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    border-bottom: 2px solid #00faff;
+}
+
+.li1 a {
+    text-align: center;
+    padding: 16px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.li1 a:hover {
+    background-color: #00faff;
+    color: black;
+}
+
+.table1 {
+    border: 3px solid black;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.table1 th {
+    border: 2px solid black;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+.table1 td {
+    text-align: left;
+    padding: 0px 90px 0px 20px;
+    border: 1px solid black;
+}
+
+.table1 tr:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+}
+
+.div1 {
+    height: 100px;
+    background-color: black;
+    margin: 20px 0px 10px 0px;
+    border: #00faff solid 2px;
+    border-radius: 10px;
+}
+
+#c1 {
+    color: gray;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.div1 ul {
+    list-style-type: none;
+}
+
+.div1 a {
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgba(0, 0, 255, 1)
+}
+
+.div1 a:hover {
+    color: orange;
+}

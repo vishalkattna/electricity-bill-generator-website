@@ -1,0 +1,165 @@
+body {
+    background: #15262e;
+    border-left: 60px solid #2b363c;
+    border-right: 60px solid #2b363c;
+    margin: 0px;
+    padding: 10px;
+}
+
+#new {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 40px;
+    border: 2px solid red;
+    font-family: 'Lobster', cursive;
+    color: #00faff;
+    background-color: #171525;
+    padding: 10px 30px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.div1 {
+    border-radius: 5px;
+    background-color: #61dffbfc;
+    border: 2px solid red;
+}
+
+.div1 caption {
+    color: blue;
+    font-style: italic;
+    font-family: monospace;
+    border-top-right-radius: 13px;
+    background: #f7f7f3;
+    float: left;
+    padding: 3px 5px;
+    word-spacing: 2px;
+}
+
+.table1 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.table1 th {
+    padding: 5px;
+    text-align: right;
+}
+
+.table2 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.table2 th {
+    padding: 5px;
+    text-align: right;
+}
+
+.table3 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.table3 th {
+    padding: 5px 92px 5px 5px;
+    text-align: right;
+}
+
+.table3 span {
+    font-size: 12px;
+}
+
+.table4 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.table4 th {
+    font-size: 16px;
+    padding: 5px;
+    text-align: left;
+}
+
+#photo {
+    position: relative;
+    left: 79px;
+    width: 177px;
+}
+
+#ppid {
+    position: relative;
+    top: 0px;
+    left: 36px
+}
+
+#proof {
+    position: relative;
+    top: 8px;
+    left: 56px
+}
+
+#proof1 {
+    top: 10px;
+    position: relative;
+    left: 11px;
+}
+
+#ca1 {
+    width: 280px;
+    position: relative;
+    right: 76px;
+}
+
+.table4 span {
+    font-size: 13px;
+}
+
+.table5 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.table5 th {
+    width: 400px;
+    padding: 5px;
+    text-align: right;
+}
+
+#caption5 {
+    text-align: left;
+}
+
+.table6 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.table6 th {
+    padding: 5px;
+    padding-left: 33px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.button {
+    position: relative;
+    left: 405px;
+    width: 151px;
+    font-size: medium;
+    background: #fdeb14;
+    color: #171719;
+    border: 2px solid #5d1ed8;
+    margin: 5px;
+    font-family: 'Lobster';
+    border-radius: 6px;
+    cursor: pointer;
+}
